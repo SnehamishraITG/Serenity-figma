@@ -1,0 +1,20 @@
+@media(max-width:1285px){
+    .drawer-icon{
+        display:flex;
+        justify-content:flex-start;
+    }
+        .header-inner {
+    grid-template-columns: auto 1fr auto;
+}
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+    .drawer {
+    font-size: 24px;
+    color: white;
+}
+    .navigation-bar{
+        display:none;
+    }
+}

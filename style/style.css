@@ -228,17 +228,16 @@ ul.navigation-ul {
     line-height: var(--line-height-forgrade-secondary);
 }
 .banner-content {
-    top: 258px;
+    top: 32%;
     position: absolute;
-    left: 15px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     text-align: left;
     line-height: var(--line-height-forgrade-secondary);
     max-width: 433px;
-    transform: translate(112px, -50px);
     color: var(--text-color-forgrade-primary);
+    padding-left: 12px;
 }
 .icon-with-text-ul{
     text-align: center;

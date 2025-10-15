@@ -237,7 +237,7 @@ ul.navigation-ul {
     line-height: var(--line-height-forgrade-secondary);
     max-width: 433px;
     color: var(--text-color-forgrade-primary);
-    padding-left: 12px;
+    padding-left: 1px;
 }
 .icon-with-text-ul{
     text-align: center;

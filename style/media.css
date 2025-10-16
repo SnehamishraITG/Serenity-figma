@@ -33,15 +33,28 @@
 	padding-right: 20px;
 }
 h3 {
-    font-size:32px;
+    font-size:26px;
 }
-.grid-col-3-desktop .grid-item {
+.grid-col-3-tablet.grid-item {
     width: calc(30.6% - 7px);
     max-width: calc(30.6% - 7px);
 }
 .swiper-slide img {	
 	aspect-ratio:10/8;
     object-fit:cover;
+}
+.image-with-text-content {
+    width: 100%;
+}
+.banner img {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+.rich-text-inner {
+    width: 100%;
+}
+.mid-banner-pera {
+    width: 100%;
 }
 }
 
@@ -53,6 +66,7 @@ h3 {
 h3 {
     font-size: 24px;
 }
+
 .button-primary {
     padding: 13px 13px;
 }
@@ -77,5 +91,13 @@ h3 {
 .grid-col-2-mobile .grid-item {
     width: calc(50% - 11px);
     max-width: calc(50% - 11px);
+}
+li.grid-item.flex-end {
+    align-items: flex-end;
+    display: flex;
+    justify-content:center;
+}
+li.grid-item.flex-start {
+    justify-content: center;
 }
 }

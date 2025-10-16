@@ -288,7 +288,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color))
+    color:black;
 }
 
 .swiper-button-next.swiper-button-disabled,
@@ -307,7 +307,7 @@
 
 .swiper-navigation-disabled .swiper-button-next,
 .swiper-navigation-disabled .swiper-button-prev {
-    display: none !important
+    display: block !important
 }
 
 .swiper-button-next svg,
@@ -786,4 +786,7 @@ button.swiper-pagination-bullet {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden
+}
+.swiper-slide{
+background-color:none;
 }

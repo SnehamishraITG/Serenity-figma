@@ -298,6 +298,15 @@ ul.navigation-ul {
 	align-items: center;
 	position: relative;
 }
+.swiper-next:hover{
+	cursor: pointer;
+}
+.swiper-prev:hover{
+	cursor: pointer;
+}
+.swiper-button:hover{
+	cursor: pointer;
+}
 
 .swiper-slide img {
 	width: 100%;

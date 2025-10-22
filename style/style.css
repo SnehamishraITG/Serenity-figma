@@ -113,7 +113,8 @@ body {
 	display: inline-block;
 	max-width: 85px;
 }
-.button-primary:hover{
+
+.button-primary:hover {
 	background-color: var(--background-color-crad-forgrade-secondary);
 	color: var(--text-color-forgrade-underline-button);
 }
@@ -126,19 +127,19 @@ body {
 	display: inline-block;
 }
 
-.button-underline:hover{
-	color: var(	--background-color-forgrade-primary);
-} 
-
-.outline-button {
-    border: 1px solid var(--text-color-forgrade-underline-button);
-    width: 78%;
-    padding: 5px;
-    border-radius: 5px;
-    margin: auto;
+.button-underline:hover {
+	color: var(--background-color-forgrade-primary);
 }
 
-.outline-button:hover{
+.outline-button {
+	border: 1px solid var(--text-color-forgrade-underline-button);
+	width: 78%;
+	padding: 5px;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.outline-button:hover {
 	background-color: var(--background-color-crad-forgrade-secondary);
 	color: var(--text-color-forgrade-underline-button);
 }
@@ -187,7 +188,7 @@ body {
 }
 
 .sub-heading {
-	color:#26A3DB;
+	color: #26A3DB;
 	font-size: var(--font-size-regular);
 	font-weight: var(--font-weight-bold);
 	font-family: var(--font-family-body);
@@ -298,13 +299,16 @@ ul.navigation-ul {
 	align-items: center;
 	position: relative;
 }
-.swiper-next:hover{
+
+.swiper-next:hover {
 	cursor: pointer;
 }
-.swiper-prev:hover{
+
+.swiper-prev:hover {
 	cursor: pointer;
 }
-.swiper-button:hover{
+
+.swiper-button:hover {
 	cursor: pointer;
 }
 
@@ -315,11 +319,12 @@ ul.navigation-ul {
 }
 
 .banner-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
-    position: absolute;
-    bottom: 4%;
-    z-index: 1;
-    transform: translate(49%, 10px);
+	position: absolute;
+	bottom: 4%;
+	z-index: 1;
+	transform: translate(49%, 10px);
 }
+
 .review.swiper-slide {
 	margin-top: 50px;
 	display: flex;
@@ -478,7 +483,7 @@ ul.card-product-ul {
 	position: absolute;
 	bottom: 3%;
 	width: 100%;
-	font-size:var(--font-size-small);
+	font-size: var(--font-size-small);
 	left: 1%;
 	display: none;
 }
@@ -561,7 +566,7 @@ ul.card-product-ul {
 	justify-content: center;
 }
 
-.image-with-text-inner{
+.image-with-text-inner {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -588,9 +593,10 @@ ul.card-product-ul {
 	width: 100%;
 	line-height: var(--line-height-forgrade-tertiary);
 }
-.img-with-text{
-    padding-top: 80px;
-    padding-bottom: 80px;
+
+.img-with-text {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .swiper-button {
@@ -633,12 +639,12 @@ ul.card-product-ul {
 }
 
 .insta-feed-inner {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1600px;
-    margin: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1600px;
+	margin: auto;
 }
 
 .date {
@@ -685,23 +691,27 @@ li.grid-item.flex-start {
 	position: sticky;
 	top: 0;
 }
+
 .scrolling-image-with-text-inner.grid-col-2-desktop.grid-col-2-mobile.grid {
-    padding-top: 80px;
-    padding-bottom: 80px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
+
 .scrolling-image-with-text-images.grid-item {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
+
 .scrolling-text {
-    position: sticky;
-    top: 77px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    margin-top: 54px;
+	position: sticky;
+	top: 77px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	margin-top: 54px;
 }
+
 .footer-flex {
 	display: flex;
 	gap: 5px;
@@ -808,31 +818,31 @@ select {
 
 .image-with-text-inner {
 	width: 100%;
-    display: flex;
-    gap: 80px;
+	display: flex;
+	gap: 80px;
 }
 
 .second-image {
- position: relative;
-    left: 50%;
+	position: relative;
+	left: 50%;
 }
 
 .first-image {
 	position: absolute;
-    z-index: 1;
-    top: 10%;
-    right: 43%;
-    display: flex;
+	z-index: 1;
+	top: 10%;
+	right: 43%;
+	display: flex;
 }
 
 .image-with-text-content {
-	 width: calc(47% - 40px);
+	width: calc(47% - 40px);
 }
 
 .image-with-text-images {
-	 width: calc(55% - 40px);
-	 display: flex;
-    position: relative;
+	width: calc(55% - 40px);
+	display: flex;
+	position: relative;
 }
 
 .first-image {
@@ -853,65 +863,69 @@ select {
 
 /* popup css */
 
-         .container{
-	position:relative;
+.container {
+	position: relative;
 }
-.verify{
+
+.verify {
 	align-items: center;
-	font-size:20px;
+	text-align:center;
+	font-size: 20px;
 	font-family: var(--font-family-body);
 }
 
-        .opacity {
-            /* opacity: 0.6; */
-            filter: brightness(10%);
-			background-color:black;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-    .popup {
-    position:fixed;
-    z-index: 2;
-    flex-direction: column;
-    gap: 21px;
-   font-size:20px;
-    top: 25%;
-    padding: 40px;
-    border-radius: 18px;
-    left: 35%;
-	width:100%;
-	height:100%;
-   max-width: 364px;
-   max-height: 306px;
+.opacity {
+	/* opacity: 0.6; */
+	filter: brightness(10%);
+	background-color: black;
 }
-.flex{
-	display:flex;
-	gap:30px;
-	justify-content:center;
+
+.hidden {
+	display: none;
+}
+
+.popup {
+	position: fixed;
+	z-index: 2;
+	flex-direction: column;
+	gap: 21px;
+	font-size: 20px;
+	top: 25%;
+	padding: 40px;
+	border-radius: 18px;
+	left: 35%;
+	width: 100%;
+	height: 100%;
+	max-width: 364px;
+	max-height: 306px;
+}
+
+.flex {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
 	align-items: center;
 }
-        .age-verify {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
 
-        input[type="text"] {
-            width: 100%;
-            padding: 10px 5px 10px 3px;
-            border-radius: 5px;
-			font-size:20px;
-            border: none;
-            outline: none;
-        }
+.age-verify {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
 
-        .submit-button {
-            width: 50%;
-            padding: 10px 5px 10px 3px;
-            border-radius: 5px;
-            border: none;
-            outline: none;
-        }
+input[type="text"] {
+	width: 100%;
+	padding: 10px 5px 10px 3px;
+	border-radius: 5px;
+	font-size: 20px;
+	border:2px solid ;
+	outline: none;
+}
+
+.submit-button {
+	width: 50%;
+	padding: 10px 5px 10px 3px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}

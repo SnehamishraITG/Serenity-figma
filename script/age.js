@@ -19,8 +19,8 @@ let container = document.querySelector(".container");
                     formdata.classList.add("hidden");
 					  formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden")
-                    answer.innerText = "🔴 you're not eligible 😌";
-                }else {
+                    answer.innerText = "🔴 you're age must be 18 year and above 😌";
+                }else{
                     formdata.classList.add("hidden");
 					  formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden");

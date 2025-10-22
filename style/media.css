@@ -107,7 +107,7 @@
     .image-with-text-inner {
         flex-direction: column-reverse;
     }
-
+    
 }
 
 @media(max-width:750px) {
@@ -223,10 +223,11 @@
     }
 
     .popup {
-        margin: auto;
-        top: 25%;
-        padding: 14px;
-        left: 8%;
-    }
+    margin: auto;
+    top: 25%;
+    padding: 14px;
+    left: 11%;
+    max-width: 70%;
+}
 
 }

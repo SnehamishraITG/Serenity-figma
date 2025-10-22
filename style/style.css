@@ -878,6 +878,7 @@ select {
 	/* opacity: 0.6; */
 	filter: brightness(10%);
 	overflow: hidden;
+	pointer-events: none;
 	height:100vh;
 	background-color: black;
 }

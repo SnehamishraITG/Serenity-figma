@@ -19,13 +19,13 @@ let container = document.querySelector(".container");
                     formdata.classList.add("hidden");
 					  formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden")
-                    answer.innerText = "You're not aligible";
+                    answer.innerText = "🔴 You're not aligible 😌";
                 }else {
                     formdata.classList.add("hidden");
 					  formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden");
 					logo.classList.remove("hidden");
-                    answer.innerText = "Welcome user";
+                    answer.innerText = "Welcome to our Serenity store😊";
                     localStorage.setItem("age", age);
                     setTimeout((e) => {
                         container.classList.remove("opacity");
@@ -37,7 +37,7 @@ let container = document.querySelector(".container");
                  formdata.classList.add("hidden");
 				   formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden")
-                    answer.innerText = "please enter valid age";
+                    answer.innerText = "🔴 please enter valid age 😐";
             }
 
         }

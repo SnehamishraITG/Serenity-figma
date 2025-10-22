@@ -19,7 +19,7 @@ let container = document.querySelector(".container");
                     formdata.classList.add("hidden");
 					  formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden")
-                    answer.innerText = "🔴 You're not aligible 😌";
+                    answer.innerText = "🔴 you're not eligible 😌";
                 }else {
                     formdata.classList.add("hidden");
 					  formdata.classList.remove("age-verify");

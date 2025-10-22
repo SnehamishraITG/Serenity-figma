@@ -205,5 +205,11 @@ li.grid-item.flex-start {
 .img-with-text-heading {
     width: 100%;
 }
+.popup {
+    margin: auto;
+    top: 25%;
+    padding: 14px;
+    left: 8%;
+}
 
 }

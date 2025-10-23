@@ -17,12 +17,17 @@ let container = document.querySelector(".container");
             if(age.length >= 1 && age.length <= 3 && age < 101 && age > 1 &&  Number(age)){ 
                 if (age < 18) {
                     formdata.classList.add("hidden");
-					  formdata.classList.remove("age-verify");
+					formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden")
                     answer.innerText = "🔴 you're age must be 18 year and above 😌";
+                    setTimeout((e) => {
+                        formdata.classList.remove("hidden");
+					formdata.classList.add("age-verify");
+                        verify.classList.add("hidden")
+                    }, 2000);
                 }else{
                     formdata.classList.add("hidden");
-					  formdata.classList.remove("age-verify");
+					formdata.classList.remove("age-verify");
                     verify.classList.remove("hidden");
 					logo.classList.remove("hidden");
                     answer.innerText = "Welcome to our Serenity store😊";
@@ -39,6 +44,5 @@ let container = document.querySelector(".container");
                     verify.classList.remove("hidden")
                     answer.innerText = "🔴 please enter valid age 😐";
             }
-
         }
         ));
